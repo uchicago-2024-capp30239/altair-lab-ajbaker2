@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "altair-lab-ajbaker2"
+version = "0.1.0"
+description = "ALtair Lab Assignment"
+authors = ["Andrew Baker"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+altair = "^5.4.1"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
